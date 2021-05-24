@@ -25,13 +25,13 @@ class Employees extends Component {
                         prod =>
                             <div key={prod.id} className="product">
                                 <div className={"prod-pic"}>
-                                    <img src={"logo512.png"} />
+                                    <img src={"prodlogo.jpg"} />
                                 </div>
 
                                 <div className={"prod-content"}>
                                     <h2 className={"prod-text"}>{prod.name}</h2>
                                     <h4 className={"prod-description"}>{prod.description}</h4>
-                                    <h4 className={"prod-price"}>{prod.price}</h4>
+                                    <h4 className={"prod-price"}>{prod.price} $</h4>
                                 </div>
                             </div>
                     )
